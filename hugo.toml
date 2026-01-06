@@ -1,0 +1,85 @@
+baseURL = "/"  # Changed from example.com for local testing
+enableRobotsTXT = true
+timeZone = "America/Los_Angeles"
+titleCaseStyle = "Go"
+theme = "paige" # <--- ADDED THIS: Tells Hugo to look in themes/paige
+
+disableKinds = ["taxonomy", "term"]
+
+[languages.en]
+    copyright = "© 2025 Kai Tom" # Updated
+    languageCode = "en-us"
+    languageDirection = "ltr"
+    languageName = "English"
+    title = "TOMKAIDESIGN" # Updated
+    weight = 10
+
+[languages.en.params.paige.site]
+    description = "Mechanical Engineering | University of Washington"
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[markup.highlight]
+    noClasses = false
+    style = "github"
+
+# REMOVED: [[module.imports]] section (We don't need it for manual install)
+
+[outputs]
+    home = ["atom", "html", "paige-search", "rss"]
+    section = ["atom", "html", "rss"]
+    taxonomy = ["atom", "html", "rss"]
+    term = ["atom", "html", "rss"]
+
+[pagination]
+    pagerSize = 50
+
+# --- USER INFO ---
+[[params.paige.feeds.atom.authors]]
+    email = "motiak@uw.edu" # Updated
+    name = "Kai Tom"      # Updated
+    url = "/"
+
+[params.paige.pages]
+    disable_authors = true
+    disable_date = false # Enabled so you can see when you did projects
+    disable_keywords = true
+    disable_next = false
+    disable_prev = false
+    disable_reading_time = true
+    disable_series = true
+    disable_toc = true
+    disable_word_count = true
+
+    disable_menu_tags = true
+
+[params.paige.site]
+    disable_breadcrumbs = false # Good for navigating engineering projects
+    disable_credit = true
+
+# This theme is very complex, so we stay with simple taxonomies
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About Me"
+    url = "/about-me/"
+    weight = 4
+
+[[menu.main]]
+    name = "Panasonic Avionics"
+    url = "/panasonic-avionics/"
+    weight = 2
+[[menu.main]]
+    name = "DBF Stingray"
+    url = "/dvf-stingray/"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+

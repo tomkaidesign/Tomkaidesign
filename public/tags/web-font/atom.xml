@@ -1,0 +1,174 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+
+        
+            
+        
+    
+        
+
+        
+            
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed  xml:lang="en-us"  xmlns="http://www.w3.org/2005/Atom">
+    
+        <author>
+            
+                <email>ktom@uw.edu</email>
+            
+
+            
+                <name>Kai Tom</name>
+            
+
+            
+                <uri>/</uri>
+            
+        </author>
+    
+
+    
+        <icon>//localhost:1313/</icon>
+    
+
+    
+        <id>tag:localhost:1313,0001-01-01:/tags/web-font/atom.xml</id>
+    
+
+    
+        <link href="//localhost:1313/tags/web-font/atom.xml" hreflang="en-us" rel="self" type="application/atom+xml"/>
+    
+
+    
+        
+
+        <link href="//localhost:1313/tags/web-font/atom.xml" hreflang="en-us" rel="alternate" type="application/atom+xml"/>
+    
+        
+
+        <link href="//localhost:1313/tags/web-font/" hreflang="en-us" rel="alternate" type="text/html"/>
+    
+        
+
+        <link href="//localhost:1313/tags/web-font/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/>
+    
+
+    
+
+    
+        <logo>//localhost:1313/</logo>
+    
+
+    
+        <rights type="html"><![CDATA[© 2025 Kai Tom]]></rights>
+    
+
+    
+
+    
+        <title type="html"><![CDATA[Web Font · Tags · TOMKAIDESIGN]]></title>
+    
+
+    
+        <updated>2023-09-18T21:21:05-07:00</updated>
+    
+
+    
+        
+            <entry>
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+
+                
+
+                
+                    <content type="html"><![CDATA[<p>The <code>paige/icon</code> shortcode displays a web font icon.</p><h2 id=class-parameter>Class parameter</h2><p>Code:</p><div class=highlight><pre tabindex=0 style=background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go-html-template data-lang=go-html-template><span style=display:flex><span><span style=color:#1f2328>&lt;</span><span style=color:#0550ae>p</span> <span style=color:#1f2328>class</span><span style=color:#0550ae>=</span><span style=color:#0a3069>&#34;display-1&#34;</span><span style=color:#1f2328>&gt;</span>Icon: <span style=color:#57606a>{{</span><span style=color:#f6f8fa;background-color:#82071e>&lt;</span><span style=color:#fff> </span><span style=color:#1f2328>paige</span><span style=color:#f6f8fa;background-color:#82071e>/</span><span style=color:#1f2328>icon</span><span style=color:#fff> </span><span style=color:#1f2328>class</span><span style=color:#0550ae>=</span><span style=color:#0a3069>&#34;bi bi-github&#34;</span><span style=color:#fff> </span><span style=color:#f6f8fa;background-color:#82071e>&gt;</span><span style=color:#57606a>}}</span><span style=color:#1f2328>&lt;/</span><span style=color:#0550ae>p</span><span style=color:#1f2328>&gt;</span></span></span></code></pre></div><p>Result:</p><p class=display-1>Icon:
+<span class=paige-shortcode-icon><i class="bi bi-github"></i></span></p><h2 id=title-parameter>Title parameter</h2><p>Code:</p><div class=highlight><pre tabindex=0 style=background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go-html-template data-lang=go-html-template><span style=display:flex><span><span style=color:#1f2328>&lt;</span><span style=color:#0550ae>p</span> <span style=color:#1f2328>class</span><span style=color:#0550ae>=</span><span style=color:#0a3069>&#34;display-1&#34;</span><span style=color:#1f2328>&gt;</span>Icon: <span style=color:#57606a>{{</span><span style=color:#f6f8fa;background-color:#82071e>&lt;</span><span style=color:#fff> </span><span style=color:#1f2328>paige</span><span style=color:#f6f8fa;background-color:#82071e>/</span><span style=color:#1f2328>icon</span><span style=color:#fff> </span><span style=color:#1f2328>class</span><span style=color:#0550ae>=</span><span style=color:#0a3069>&#34;bi bi-github&#34;</span><span style=color:#fff> </span><span style=color:#1f2328>title</span><span style=color:#0550ae>=</span><span style=color:#0a3069>&#34;GitHub&#34;</span><span style=color:#fff> </span><span style=color:#f6f8fa;background-color:#82071e>&gt;</span><span style=color:#57606a>}}</span><span style=color:#1f2328>&lt;/</span><span style=color:#0550ae>p</span><span style=color:#1f2328>&gt;</span></span></span></code></pre></div><p>Result:</p><p class=display-1>Icon:
+<span class=paige-shortcode-icon><i class="bi bi-github" title=GitHub><span class=visually-hidden>GitHub</span></i></span></p><h2 id=url-parameter>Url parameter</h2><p>Code:</p><div class=highlight><pre tabindex=0 style=background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-go-html-template data-lang=go-html-template><span style=display:flex><span><span style=color:#1f2328>&lt;</span><span style=color:#0550ae>p</span> <span style=color:#1f2328>class</span><span style=color:#0550ae>=</span><span style=color:#0a3069>&#34;display-1&#34;</span><span style=color:#1f2328>&gt;</span>Icon: <span style=color:#57606a>{{</span><span style=color:#f6f8fa;background-color:#82071e>&lt;</span><span style=color:#fff> </span><span style=color:#1f2328>paige</span><span style=color:#f6f8fa;background-color:#82071e>/</span><span style=color:#1f2328>icon</span><span style=color:#fff> </span><span style=color:#1f2328>class</span><span style=color:#0550ae>=</span><span style=color:#0a3069>&#34;bi bi-github&#34;</span><span style=color:#fff> </span><span style=color:#1f2328>url</span><span style=color:#0550ae>=</span><span style=color:#0a3069>&#34;https://github.com/willfaught/paige&#34;</span><span style=color:#fff> </span><span style=color:#f6f8fa;background-color:#82071e>&gt;</span><span style=color:#57606a>}}</span><span style=color:#1f2328>&lt;/</span><span style=color:#0550ae>p</span><span style=color:#1f2328>&gt;</span></span></span></code></pre></div><p>Result:</p><p class=display-1>Icon:
+<span class=paige-shortcode-icon><a href=https://github.com/willfaught/paige><i class="bi bi-github"></i></a></span></p>]]></content>
+                
+
+                
+                    <id>tag:localhost:1313,0001-01-01:/shortcodes/icon/</id>
+                
+
+                
+                    
+
+                    
+
+                    <link href="//localhost:1313/shortcodes/icon/" hreflang="en-us" rel="alternate" type="text/html"/>
+                
+
+                
+
+                
+                    <published>0001-01-01T00:00:00Z</published>
+                
+
+                
+                    <rights type="html"><![CDATA[© 2025 Kai Tom]]></rights>
+                
+
+                
+                    <summary type="html"><![CDATA[Demonstration of the icon shortcode.]]></summary>
+                
+
+                
+                    <title type="html"><![CDATA[Icon]]></title>
+                
+
+                
+                    <updated>0001-01-01T00:00:00Z</updated>
+                
+            </entry>
+        
+    
+</feed>

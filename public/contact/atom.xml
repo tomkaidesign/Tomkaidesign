@@ -1,0 +1,104 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+
+        
+            
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed  xml:lang="en-us"  xmlns="http://www.w3.org/2005/Atom">
+    
+        <author>
+            
+                <email>motiak@uw.edu</email>
+            
+
+            
+                <name>Kai Tom</name>
+            
+
+            
+                <uri>/</uri>
+            
+        </author>
+    
+
+    
+        <icon>//localhost:1313/</icon>
+    
+
+    
+        <id>tag:localhost:1313,0001-01-01:/contact/atom.xml</id>
+    
+
+    
+        <link href="//localhost:1313/contact/atom.xml" hreflang="en-us" rel="self" type="application/atom+xml"/>
+    
+
+    
+        
+
+        <link href="//localhost:1313/contact/atom.xml" hreflang="en-us" rel="alternate" type="application/atom+xml"/>
+    
+        
+
+        <link href="//localhost:1313/contact/" hreflang="en-us" rel="alternate" type="text/html"/>
+    
+        
+
+        <link href="//localhost:1313/contact/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/>
+    
+
+    
+
+    
+        <logo>//localhost:1313/</logo>
+    
+
+    
+        <rights type="html"><![CDATA[© 2025 Kai Tom]]></rights>
+    
+
+    
+        <subtitle type="html"><![CDATA[Please get in touch if you have any available opportunities, I would love to chat.]]></subtitle>
+    
+
+    
+        <title type="html"><![CDATA[.Lets Connect · TOMKAIDESIGN]]></title>
+    
+
+    
+        <updated>0001-01-01T00:00:00Z</updated>
+    
+
+    
+</feed>

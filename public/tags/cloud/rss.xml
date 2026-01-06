@@ -1,0 +1,161 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+
+        
+            
+        
+    
+        
+
+        
+            
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            <copyright>© 2025 Kai Tom</copyright>
+        
+
+        
+
+        
+            <language>en-us</language>
+        
+
+        
+            <lastBuildDate>Mon, 18 Sep 2023 21:21:05 PDT</lastBuildDate>
+        
+
+        
+            <link>//localhost:1313/tags/cloud/</link>
+        
+
+        
+            <atom:link href="//localhost:1313/tags/cloud/rss.xml" hreflang="en-us" rel="self" type="application/rss+xml"/>
+        
+
+        
+            
+
+            <atom:link href="//localhost:1313/tags/cloud/atom.xml" hreflang="en-us" rel="alternate" type="application/atom+xml"/>
+        
+            
+
+            <atom:link href="//localhost:1313/tags/cloud/" hreflang="en-us" rel="alternate" type="text/html"/>
+        
+            
+
+            <atom:link href="//localhost:1313/tags/cloud/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/>
+        
+
+        
+
+        
+
+        
+            <title>Cloud · Tags · TOMKAIDESIGN</title>
+        
+
+        
+
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+                        <description><![CDATA[<p>The <code>paige/cloud</code> layout displays list page links as a link cloud.</p><p>This page has the following parameters:</p><div class=highlight><pre tabindex=0 style=background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#0550ae>layout</span><span style=color:#1f2328>:</span><span style=color:#fff> </span><span style=color:#0a3069>&#34;paige/cloud&#34;</span></span></span></code></pre></div><p>Result:</p>]]></description>
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/layouts/cloud/atom.xml</guid>
+                    
+
+                    
+                        <link>//localhost:1313/layouts/cloud/atom.xml</link>
+                    
+
+                    
+                        
+
+                        
+
+                        <atom:link href="//localhost:1313/layouts/cloud/atom.xml" hreflang="en-us" rel="alternate" type="application/atom+xml"/>
+                    
+                        
+
+                        
+
+                        <atom:link href="//localhost:1313/layouts/cloud/atom.xml" hreflang="en-us" rel="alternate" type="text/html"/>
+                    
+                        
+
+                        
+
+                        <atom:link href="//localhost:1313/layouts/cloud/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/>
+                    
+
+                    
+
+                    
+                        <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                    
+
+                    
+                        <title>Cloud</title>
+                    
+                </item>
+            
+        
+    </channel>
+</rss>

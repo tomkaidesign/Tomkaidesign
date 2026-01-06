@@ -1,0 +1,177 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+
+        
+            
+        
+    
+        
+
+        
+            
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed  xml:lang="en-us"  xmlns="http://www.w3.org/2005/Atom">
+    
+        <author>
+            
+                <email>motiak@uw.edu</email>
+            
+
+            
+                <name>Kai Tom</name>
+            
+
+            
+                <uri>/</uri>
+            
+        </author>
+    
+
+    
+        <icon>//localhost:1313/</icon>
+    
+
+    
+        <id>tag:localhost:1313,0001-01-01:/tags/typesetting/atom.xml</id>
+    
+
+    
+        <link href="//localhost:1313/tags/typesetting/atom.xml" hreflang="en-us" rel="self" type="application/atom+xml"/>
+    
+
+    
+        
+
+        <link href="//localhost:1313/tags/typesetting/atom.xml" hreflang="en-us" rel="alternate" type="application/atom+xml"/>
+    
+        
+
+        <link href="//localhost:1313/tags/typesetting/" hreflang="en-us" rel="alternate" type="text/html"/>
+    
+        
+
+        <link href="//localhost:1313/tags/typesetting/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/>
+    
+
+    
+
+    
+        <logo>//localhost:1313/</logo>
+    
+
+    
+        <rights type="html"><![CDATA[© 2025 Kai Tom]]></rights>
+    
+
+    
+
+    
+        <title type="html"><![CDATA[Typesetting · Tags · TOMKAIDESIGN]]></title>
+    
+
+    
+        <updated>0001-01-01T00:00:00Z</updated>
+    
+
+    
+        
+            <entry>
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+
+                
+
+                
+                    <content type="html"><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p><p>In this example we will be using <a href=https://katex.org/ rel=external>KaTeX</a></p><ul><li>Create a partial under <code>/layouts/partials/math.html</code></li><li>Within this partial reference the <a href=https://katex.org/docs/autorender.html rel=external>Auto-render Extension</a>
+or host these scripts locally.</li><li>Include the partial in your templates like so:</li></ul><pre tabindex=0><code>{{ if or .Params.math .Site.Params.math }}
+{{ partial &#34;math.html&#34; . }}
+{{ end }}</code></pre><ul><li>To enable KaTeX globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li><li>To enable KaTeX on a per page basis include the parameter <code>math: true</code> in content files</li></ul><p><strong>Note:</strong> Use the online reference of <a href=https://katex.org/docs/supported.html rel=external>Supported TeX Functions</a></p><h2 id=examples>Examples</h2><p>Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)</p><p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$</p>]]></content>
+                
+
+                
+                    <id>tag:localhost:1313,0001-01-01:/contact/math-typesetting/</id>
+                
+
+                
+                    
+
+                    
+
+                    <link href="//localhost:1313/contact/math-typesetting/" hreflang="en-us" rel="alternate" type="text/html"/>
+                
+
+                
+
+                
+                    <published>0001-01-01T00:00:00Z</published>
+                
+
+                
+                    <rights type="html"><![CDATA[© 2025 Kai Tom]]></rights>
+                
+
+                
+                    <summary type="html"><![CDATA[A brief guide to setup KaTeX.]]></summary>
+                
+
+                
+                    <title type="html"><![CDATA[Math Typesetting]]></title>
+                
+
+                
+                    <updated>0001-01-01T00:00:00Z</updated>
+                
+            </entry>
+        
+    
+</feed>
