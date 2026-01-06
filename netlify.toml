@@ -1,0 +1,19 @@
+
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.153.2"
+  # ADD THESE TWO LINES:
+  GIT_LFS_ENABLED = "true"
+  HUGO_ENABLEGITINFO = "true"
+
+# Add this specific block at the bottom
+[build.processing]
+  skip_processing = false
+
+[context.production.environment]
+  # This tells Git to grab the theme during the build
+    HUGO_ENV = "production"
+  GIT_SUBMODULE_STRATEGY = "recursive"
