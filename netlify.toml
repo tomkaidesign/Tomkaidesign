@@ -17,3 +17,4 @@
   # This tells Git to grab the theme during the build
     HUGO_ENV = "production"
   GIT_SUBMODULE_STRATEGY = "recursive"
+
